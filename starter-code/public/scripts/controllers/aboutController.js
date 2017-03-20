@@ -4,8 +4,8 @@
   const aboutController = {};
 
   // TODO: Define a function that hides all main section elements, and then reveals just the #about section:
-  let showAbout = function(){
-    $('section').hide();
+  aboutController.showAbout = function(){
+    $('.tab-content').hide();
     $('#about').fadeIn('slow');
   }
   module.aboutController = aboutController;
